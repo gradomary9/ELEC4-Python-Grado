@@ -9,6 +9,7 @@
 | --- | --- |
 | [P1 - Student Grade Calculator](set1/p1/) | Validates grades and reports the average, highest and lowest scores, and pass/fail status. |
 | [P2 - Custom Module: student_utils](set1/p2/) | Imports reusable grade functions and adds the report date and time. |
+| [P3 - Student Record Manager](set1/p3/) | Adds, removes, searches, and displays student names with case-insensitive duplicate checks. |
 
 ### P1 - Student Grade Calculator
 
@@ -31,3 +32,17 @@ python set1/p2/p2_main.py
 Enter comma-separated grades such as `80, 90, 100`.
 
 ![Mary Grado's P2 report showing the date, time, and grade results](set1/p2/screenshots/p2-results.png)
+
+### P3 - Student Record Manager
+
+From the repository root, run:
+
+```powershell
+python set1/p3/p3_record_manager.py
+```
+
+![P3 adding students and blocking a duplicate](set1/p3/screenshots/p3-add-duplicate.png)
+
+![P3 displaying an alphabetical list and removing a student](set1/p3/screenshots/p3-display-remove.png)
+
+![P3 finding a student with a partial-name search](set1/p3/screenshots/p3-search.png)
