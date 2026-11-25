@@ -10,6 +10,7 @@
 | [P1 - Student Grade Calculator](set1/p1/) | Validates grades and reports the average, highest and lowest scores, and pass/fail status. |
 | [P2 - Custom Module: student_utils](set1/p2/) | Imports reusable grade functions and adds the report date and time. |
 | [P3 - Student Record Manager](set1/p3/) | Adds, removes, searches, and displays student names with case-insensitive duplicate checks. |
+| [P4 - Safe Menu Program](set1/p4/) | Handles invalid numbers, division by zero, missing files, and invalid menu choices. |
 
 ### P1 - Student Grade Calculator
 
@@ -46,3 +47,15 @@ python set1/p3/p3_record_manager.py
 ![P3 displaying an alphabetical list and removing a student](set1/p3/screenshots/p3-display-remove.png)
 
 ![P3 finding a student with a partial-name search](set1/p3/screenshots/p3-search.png)
+
+### P4 - Safe Menu Program
+
+From the repository root, run:
+
+```powershell
+python set1/p4/p4_exceptions.py
+```
+
+![P4 handling invalid numbers and division by zero](set1/p4/screenshots/p4-invalid-number-division-by-zero.png)
+
+![P4 handling a missing file and invalid menu choice](set1/p4/screenshots/p4-missing-file-invalid-menu.png)
