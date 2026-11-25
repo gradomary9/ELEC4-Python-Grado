@@ -8,7 +8,6 @@
 | Activity | Description |
 | --- | --- |
 | [P1 - Student Grade Calculator](set1/p1/) | Validates grades and reports the average, highest and lowest scores, and pass/fail status. |
-
 | [P2 - Custom Module: student_utils](set1/p2/) | Imports reusable grade functions and adds the report date and time. |
 
 ### P1 - Student Grade Calculator
